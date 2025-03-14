@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tickets
-          image: krishsrivastava/tickets
+          image: sharmaaggautam/tickets
           env:
             - name: NATS_URL
               value: nats://nats-srv:4222

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: krishsrivastava/expiration
+          image: sharmaaggautam/expiration
           env:
             - name: NATS_URL
               value: nats://nats-srv:4222

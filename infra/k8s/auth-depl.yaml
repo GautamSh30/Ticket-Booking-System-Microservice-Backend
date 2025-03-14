@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: krishsrivastava/auth
+          image: sharmaaggautam/auth
           env:
             - name: MONGO_URI
               value: mongodb://auth-mongo-cluster-srv:27017/auth
